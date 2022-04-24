@@ -1,7 +1,7 @@
 :root {
   --main-text-color: #212121;
   --paragraph-text-color: #757575;
-  --accent-color: #2196f3;
+  --accent-color: #2094f3;
   --accessorial-text-color-transparency: #ffffff60;
   --accessorial-text-color: #ffffff;
   --button-accent-color: #188ce8;
@@ -94,16 +94,10 @@ img {
   letter-spacing: 0.03em;
   text-decoration: none;
   color: var(--logo-text-color);
-  transition: text-decoration 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    color var(--accent-color) 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .logo-part {
   color: var(--accent-color);
-}
-
-.logo:hover {
-  text-decoration: underline var(--accent-color);
 }
 
 .list {
@@ -139,9 +133,7 @@ img {
   letter-spacing: 0.02em;
   text-decoration: none;
 
-  transition: text-decoration 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   color: var(--main-text-color);
 }
 
@@ -150,7 +142,6 @@ img {
 .auth-nav-link:hover,
 .auth-nav-link:focus {
   color: var(--accent-color);
-  text-decoration: underline var(--accent-color);
 }
 
 .site-nav-link::after {
@@ -243,13 +234,6 @@ img {
   text-transform: uppercase;
 
   color: var(--accessorial-text-color);
-
-  transition: text-decoration 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.hero-title:hover,
-.hero-title:focus {
-  text-decoration: underline var(--accent-color);
 }
 
 /* hero-button */
@@ -374,17 +358,8 @@ img {
   font-size: 36px;
   line-height: 1.17;
   letter-spacing: 0.03em;
-  transition: text-decoration 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    color var(--accent-color) 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
   color: var(--main-text-color);
-}
-
-.features-titled.centered:hover,
-.team-titeled.centered:hover,
-.work-title:hover,
-.clients-titled:hover {
-  text-decoration: underline var(--accent-color);
 }
 
 .work {
