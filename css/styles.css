@@ -1,7 +1,7 @@
 :root {
   --main-text-color: #212121;
   --paragraph-text-color: #757575;
-  --accent-color: #2094f3;
+  --accent-color: #2196f3;
   --accessorial-text-color-transparency: #ffffff60;
   --accessorial-text-color: #ffffff;
   --button-accent-color: #188ce8;
@@ -72,9 +72,6 @@ img {
 .header {
   background-color: var(--accessorial-text-color);
   border-bottom: 1px solid var(--header-border-color);
-}
-
-.page-header {
   display: flex;
   align-items: center;
 }
@@ -248,7 +245,6 @@ img {
   font-size: 16px;
   line-height: 1.9;
   align-items: center;
-  text-align: center;
   letter-spacing: 0.06em;
 
   background-color: var(--accent-color);
