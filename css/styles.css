@@ -62,8 +62,7 @@ img {
   height: auto;
 }
 
-.container,
-.page-header {
+.container {
   width: 1200px;
   margin: 0 auto;
   padding: 0 15px;
@@ -115,10 +114,11 @@ img {
 
 .site-nav {
   display: flex;
+  align-items: center;
   margin-inline-start: auto;
 }
 
-.site-nav .item + .item {
+.site-nav-item + .site-nav-item {
   margin-left: 50px;
 }
 
@@ -169,11 +169,13 @@ img {
 
 .auth-nav {
   display: flex;
+  align-items: center;
   margin-left: auto;
 }
 
 .auth-nav-link {
   display: flex;
+  align-items: center;
   padding-top: 32px;
   padding-bottom: 32px;
 
@@ -192,7 +194,7 @@ img {
   fill: currentColor;
 }
 
-.auth-nav .item + .item {
+.auth-nav-item + .auth-nav-item {
   margin-left: 50px;
 }
 
